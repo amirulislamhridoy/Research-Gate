@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
+
+:root{
+    --primary: #40ba9b;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header{
+    border-bottom: 1px solid #dddddd;
+}
+header > div{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header > div h3 a{
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+header > div h3 a:hover{
+    color: var(--primary)
+}
+header > div div a{
+    color: #677469;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin: 0 5px;
+}
+header > div div a:first-child:hover{
+    border-bottom: 2px solid;
+    color: #677469;
+}
+header > div div a:last-child{
+    color: var(--primary)
+}
+header > div div a:last-child:hover{
+    border-bottom: 2px solid;
+}
