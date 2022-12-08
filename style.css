@@ -12,45 +12,36 @@
 header {
     border-bottom: 1px solid #dddddd;
 }
-
 header>div {
     max-width: 1200px;
     margin: 0 auto;
     height: 72px;
 }
-
 header>div h3 a {
     color: var(--primary);
     font-size: 1.75rem;
 }
-
 header>div h3 a:hover {
     color: var(--primary)
 }
-
 header>div div a {
     color: #677469;
     font-size: 14px;
 }
-
 header>div div a:first-child:hover {
     color: #677469;
     border-bottom: 2px solid;
 }
-
 header>div div a:last-child {
     color: var(--primary)
 }
-
 header>div div a:last-child:hover {
     border-bottom: 2px solid;
 }
-
 /* banner */
 .banner {
     position: relative;
 }
-
 .banner::before {
     content: "";
     position: absolute;
@@ -63,16 +54,13 @@ header>div div a:last-child:hover {
     left: 50%;
     transform: translate(-50vw);
 }
-
 .banner>div {
     padding-top: 40px;
     padding-bottom: 60px;
 }
-
 .banner .left {
     max-width: 450px;
 }
-
 .main-btn {
     background-color: var(--primary);
     border: 0;
@@ -80,13 +68,11 @@ header>div div a:last-child:hover {
     padding: 15px 0;
     margin: 0;
 }
-
 .banner .right img {
     width: 80%;
     position: relative;
     right: -20%;
 }
-
 /* research */
 .research .left{
     width: 50%;
@@ -110,7 +96,6 @@ header>div div a:last-child:hover {
 .research .content div input {
     font-size: 18px;
 }
-
 /* connect */
 .connect .left {
     width: 47%;
@@ -125,22 +110,18 @@ header>div div a:last-child:hover {
     margin: 8px 5px;
     background-color: white;
 }
-
 .connect .right button:hover {
     background-color: #84b4a846;
 }
-
 .connect .right button:active {
     background-color: #40ba9b;
     color: white;
 }
-
 /* advance-research */
 .advance-research {
     margin: 0 auto;
     border-top: 1px solid #9bb2ac;
 }
-
 /* footer */
 .footer-container {
     border-bottom: 1px solid #b3b9b9;
@@ -151,7 +132,6 @@ header>div div a:last-child:hover {
 .footer ul li {
     list-style: none;
 }
-
 .footer ul li a{
     color: gray;
     text-decoration: none;
@@ -163,12 +143,10 @@ header>div div a:last-child:hover {
     font-size: 12px;
     align-items: center;
 }
-
 .footer ul li a:hover {
     text-decoration: underline;
     text-decoration-color: var(--primary);
 }
-
 @media screen and (max-width: 768px) {
     h1{
         font-size: 24px;
@@ -177,24 +155,23 @@ header>div div a:last-child:hover {
         height: 50px;
         padding: 0 10px;
     }
-
     header>div h3 a {
         font-size: 16px;
     }
-
     .banner::before {
         width: 100vw;
     }
-
     .banner>div {
         padding-top: 0;
         padding-bottom: 2px;
     }
-
     .banner .left {
-        max-width: 50%;
+        max-width: 100%;
     }
-
+    .main-btn {
+        width: 180px;
+        padding: 12px 0;
+    }
     .banner .right img {
         right: 0%;
         width: 100vw;
