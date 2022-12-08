@@ -56,9 +56,6 @@ header > div div a:last-child:hover{
     transform: translate(-50vw);
 }
 .banner > div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 60px;
 }
@@ -73,4 +70,19 @@ header > div div a:last-child:hover{
 }
 .banner .right img {
     width: 600px;
+}
+
+/* research */
+.research .content p{
+    margin-bottom: 30px;
+}
+.research .content div{
+    margin-right: 100px;
+}
+.research .content div svg{
+    width: 25px;
+    color: gray;
+}
+.research .content div input{
+    font-size: 18px;
 }
