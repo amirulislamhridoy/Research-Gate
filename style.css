@@ -90,7 +90,7 @@ header > div div a:last-child:hover{
 .connect .left{
     width: 47%;
 }
-.connect .right button{
+.connect .right button, .footer button{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 8px 5px;
@@ -107,4 +107,21 @@ header > div div a:last-child:hover{
 .advance-research{
     margin: 0 auto;
     border-top: 1px solid #9bb2ac;
+}
+/* footer */
+.footer-container{
+    border-bottom: 1px solid #b3b9b9;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a, .footer ul p{
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
 }
