@@ -86,3 +86,20 @@ header > div div a:last-child:hover{
 .research .content div input{
     font-size: 18px;
 }
+/* connect */
+.connect .left{
+    width: 47%;
+}
+.connect .right button{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin: 8px 5px;
+    background-color: white;
+}
+.connect .right button:hover{
+    background-color: #84b4a846;
+}
+.connect .right button:active{
+    background-color: #40ba9b;
+    color: white;
+}
