@@ -62,7 +62,7 @@ header > div div a:last-child:hover{
 .banner .left{
     max-width: 450px;
 }
-.banner .left button{
+.main-btn{
     background-color: var(--primary);
     border: 0;
     width: 350px;
@@ -102,4 +102,9 @@ header > div div a:last-child:hover{
 .connect .right button:active{
     background-color: #40ba9b;
     color: white;
+}
+/* advance-research */
+.advance-research{
+    margin: 0 auto;
+    border-top: 1px solid #9bb2ac;
 }
